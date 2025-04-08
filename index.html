@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>AgroSarthi - Farmer's Digital Assistant</title>
+    <link href="/static/css/style.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img alt="AgroSarthi Logo" id="logo-img" src="/static/images/logo.svg" />
+                <h1 data-translate="text_1">AgroSarthi</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a class="active" data-translate="text_2" href="#home">Home</a></li>
+                    <li><a data-translate="text_3" href="#about">About</a></li>
+                    <li><a data-translate="text_4" href="#services">Our Services</a></li>
+                    <li><a data-translate="text_5" href="#crop-prediction">Crop Prediction</a></li>
+                    <li><a data-translate="text_6" href="#price-estimation">Price Estimation</a></li>
+                    <li><a data-translate="text_7" href="#yield-prediction">Yield Prediction</a></li>
+                </ul>
+                <div class="language-selector">
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="hi">हिंदी (Hindi)</option>
+                        <option value="te">తెలుగు (Telugu)</option>
+                        <option value="ta">தமிழ் (Tamil)</option>
+                        <option value="mr">मराठी (Marathi)</option>
+                    </select>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-on-scroll" data-translate="text_8">Smart Farming Solutions</h1>
+                <p class="animate-on-scroll" data-translate="text_9">Empowering farmers with AI-driven insights for
+                    better crop management and increased yields</p>
+                <div class="hero-buttons animate-on-scroll">
+                    <a class="btn btn-primary" data-translate="text_10" href="#services">Explore Services</a>
+                    <a class="btn btn-secondary" data-translate="text_11" href="#chatbot">Ask AI Assistant</a>
+                </div>
+            </div>
+            <div class="hero-image animate-on-scroll">
+                <img alt="Farmer in field" src="/static/images/hero-image.svg" />
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="text_12">About AgroSarthi</h2>
+                <p data-translate="text_13">Bridging technology and agriculture for sustainable farming</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image animate-on-scroll">
+                    <img alt="Modern farming" src="/static/images/about-image.svg" />
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <h3>Our Mission</h3>
+                    <p data-translate="text_14">AgroSarthi aims to revolutionize farming by providing accessible
+                        technology solutions to farmers of all backgrounds. We believe that with the right information
+                        and tools, every farmer can optimize their yield and income while practicing sustainable
+                        agriculture.</p>
+                    <h3>Our Vision</h3>
+                    <p data-translate="text_15">To create a world where farmers are empowered with technology, making
+                        informed decisions that lead to food security, environmental sustainability, and economic
+                        prosperity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="text_16">Our Services</h2>
+                <p data-translate="text_17">Comprehensive solutions for modern farming</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Crop Prediction</h3>
+                    <p data-translate="text_18">Get AI-powered recommendations on which crops to plant based on your
+                        soil conditions and local climate.</p>
+                    <a class="btn-text" data-translate="text_19" href="#crop-prediction">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Price Estimation</h3>
+                    <p data-translate="text_20">Stay informed about market trends and get predictions on crop prices to
+                        maximize your profits.</p>
+                    <a class="btn-text" data-translate="text_21" href="#price-estimation">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-tractor"></i>
+                    </div>
+                    <h3>Yield Prediction</h3>
+                    <p data-translate="text_22">Estimate your harvest yield based on various factors including soil
+                        health and farming practices.</p>
+                    <a class="btn-text" data-translate="text_23" href="#yield-prediction">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Chatbot</h3>
+                    <p data-translate="text_24">Get instant answers to your farming questions through our intelligent
+                        assistant.</p>
+                    <a class="btn-text" data-translate="text_25" href="#chatbot">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Crop Prediction Section -->
+    <section class="crop-prediction" id="crop-prediction">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="text_26">Crop Prediction</h2>
+                <p data-translate="text_27">Find the best crops for your land</p>
+            </div>
+            <div class="prediction-content">
+                <div class="prediction-form animate-on-scroll">
+                    <h3>Enter Your Soil &amp; Climate Data</h3>
+                    <form id="crop-prediction-form">
+                        <div class="form-group">
+                            <label data-translate="text_28" for="nitrogen">Nitrogen (N) Value:</label>
+                            <input id="nitrogen" max="140" min="0" name="nitrogen" required="" type="number" />
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_29" for="phosphorus">Phosphorus (P) Value:</label>
+                            <input id="phosphorus" max="140" min="0" name="phosphorus" required="" type="number" />
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_30" for="potassium">Potassium (K) Value:</label>
+                            <input id="potassium" max="200" min="0" name="potassium" required="" type="number" />
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_31" for="temperature">Temperature (°C):</label>
+                            <input id="temperature" max="50" min="0" name="temperature" required="" step="0.1"
+                                type="number" />
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_32" for="humidity">Humidity (%):</label>
+                            <input id="humidity" max="100" min="0" name="humidity" required="" type="number" />
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_33" for="rainfall">Rainfall (mm):</label>
+                            <input id="rainfall" max="300" min="0" name="rainfall" required="" type="number" />
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_34" for="ph">pH Value:</label>
+                            <input id="ph" max="14" min="0" name="ph" required="" step="0.1" type="number" />
+                        </div>
+                        <button class="btn btn-primary" data-translate="text_35" type="submit">Predict Suitable
+                            Crops</button>
+                    </form>
+                </div>
+                <div class="prediction-result animate-on-scroll">
+                    <h3>Recommended Crops</h3>
+                    <div class="results-container" id="crop-results">
+                        <p class="placeholder-text" data-translate="text_36">Enter your soil and climate data to get
+                            crop recommendations</p>
+                        <!-- Results will be displayed here via JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Price Estimation Section -->
+    <section class="price-estimation" id="price-estimation">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="text_37">Price Estimation</h2>
+                <p data-translate="text_38">Stay informed about market trends</p>
+            </div>
+            <div class="price-content">
+                <div class="price-form animate-on-scroll">
+                    <h3>Check Crop Prices</h3>
+                    <form id="price-estimation-form">
+                        <div class="form-group">
+                            <label data-translate="text_39" for="district-select">Select District:</label>
+                            <select id="district-select" name="district" required="">
+                                <option disabled="" selected="" value="">Choose a District</option>
+                                <option value="0">Ahmednagar</option>
+                                <option value="1">Akola</option>
+                                <option value="2">Amarawati</option>
+                                <option value="3">Beed</option>
+                                <option value="4">Bhandara</option>
+                                <option value="5">Buldhana</option>
+                                <option value="6">Chandrapur</option>
+                                <option value="7">Chattrapati Sambhajinagar</option>
+                                <option value="8">Dharashiv(Usmanabad)</option>
+                                <option value="9">Dhule</option>
+                                <option value="10">Gadchiroli</option>
+                                <option value="11">Hingoli</option>
+                                <option value="12">Jalana</option>
+                                <option value="13">Jalgaon</option>
+                                <option value="14">Kolhapur</option>
+                                <option value="15">Latur</option>
+                                <option value="16">Mumbai</option>
+                                <option value="17">Nagpur</option>
+                                <option value="18">Nanded</option>
+                                <option value="19">Nandurbar</option>
+                                <option value="20">Nashik</option>
+                                <option value="21">Parbhani</option>
+                                <option value="22">Pune</option>
+                                <option value="23">Raigad</option>
+                                <option value="24">Ratnagiri</option>
+                                <option value="25">Sangli</option>
+                                <option value="26">Satara</option>
+                                <option value="27">Sholapur</option>
+                                <option value="28">Thane</option>
+                                <option value="29">Vashim</option>
+                                <option value="30">Wardha</option>
+                                <option value="31">Yavatmal</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_40" for="month-select">Select Month:</label>
+                            <select id="month-select" name="month" required="">
+                                <option disabled="" selected="" value="">Choose a month</option>
+                                <option value="1">January</option>
+                                <option value="2">February</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">Sepmtember</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_41" for="market-select">Select Market:</label>
+                            <select id="market-select" name="market" required="">
+                                <option disabled="" selected="" value="">Choose a Market</option>
+                                <option value="0">ACF Agro Marketing</option>
+                                <option value="1">Aarni</option>
+                                <option value="2">Aatpadi</option>
+                                <option value="3">Achalpur</option>
+                                <option value="4">Aheri</option>
+                                <option value="5">Ahmednagar</option>
+                                <option value="6">Ahmedpur</option>
+                                <option value="7">Akhadabalapur</option>
+                                <option value="8">Akkalkot</option>
+                                <option value="9">Akkalkuwa</option>
+                                <option value="10">Akluj</option>
+                                <option value="11">Akola</option>
+                                <option value="12">Akole</option>
+                                <option value="13">Akot</option>
+                                <option value="14">Alibagh</option>
+                                <option value="15">Amalner</option>
+                                <option value="16">Amarawati</option>
+                                <option value="17">Ambad (Vadigodri)</option>
+                                <option value="18">Ambejaogai</option>
+                                <option value="19">Amrawati(Frui &amp; Veg. Market)</option>
+                                <option value="20">Anajngaon</option>
+                                <option value="21">Armori(Desaiganj)</option>
+                                <option value="22">Arvi</option>
+                                <option value="23">Ashti</option>
+                                <option value="24">Ashti(Jalna)</option>
+                                <option value="25">Ashti(Karanja)</option>
+                                <option value="26">Aurad Shahajani</option>
+                                <option value="27">Ausa</option>
+                                <option value="28">BSK Krishi Bazar Private Ltd</option>
+                                <option value="29">Babhulgaon</option>
+                                <option value="30">Balapur</option>
+                                <option value="31">Baramati</option>
+                                <option value="32">Barshi</option>
+                                <option value="33">Barshi Takli</option>
+                                <option value="34">Barshi(Vairag)</option>
+                                <option value="35">Basmat</option>
+                                <option value="36">Basmat(Kurunda)</option>
+                                <option value="37">Beed</option>
+                                <option value="38">Bhadrawati</option>
+                                <option value="39">Bhagyoday Cotton and Agri Market</option>
+                                <option value="40">Bhandara</option>
+                                <option value="41">Bhivandi</option>
+                                <option value="42">Bhiwapur</option>
+                                <option value="43">Bhokar</option>
+                                <option value="44">Bhokardan</option>
+                                <option value="45">Bhokardan(Pimpalgaon Renu)</option>
+                                <option value="46">Bhusaval</option>
+                                <option value="47">Bodwad</option>
+                                <option value="48">Bori</option>
+                                <option value="49">Bori Arab</option>
+                                <option value="50">Buldhana</option>
+                                <option value="51">Buldhana(Dhad)</option>
+                                <option value="52">Chakur</option>
+                                <option value="53">Chalisgaon</option>
+                                <option value="54">Chandrapur</option>
+                                <option value="55">Chandrapur(Ganjwad)</option>
+                                <option value="56">Chandur Bazar</option>
+                                <option value="57">Chandur Railway</option>
+                                <option value="58">Chandvad</option>
+                                <option value="59">Chattrapati Sambhajinagar</option>
+                                <option value="60">Chikali</option>
+                                <option value="61">Chimur</option>
+                                <option value="62">Chopada</option>
+                                <option value="63">Cottoncity Agro Foods Private Ltd</option>
+                                <option value="64">Darwha</option>
+                                <option value="65">Daryapur</option>
+                                <option value="66">Deglur</option>
+                                <option value="67">Deoulgaon Raja</option>
+                                <option value="68">Deulgaon Raja Balaji Agro Marketing Private Market</option>
+                                <option value="69">Devala</option>
+                                <option value="70">Devani</option>
+                                <option value="71">Dhadgaon</option>
+                                <option value="72">Dhamngaon-Railway</option>
+                                <option value="73">Dharangaon</option>
+                                <option value="74">Dharashiv</option>
+                                <option value="75">Dharmabad</option>
+                                <option value="76">Dharni</option>
+                                <option value="77">Dhule</option>
+                                <option value="78">Digras</option>
+                                <option value="79">Dindori</option>
+                                <option value="80">Dindori(Vani)</option>
+                                <option value="81">Dondaicha</option>
+                                <option value="82">Dondaicha(Sindhkheda)</option>
+                                <option value="83">Dound</option>
+                                <option value="84">Dudhani</option>
+                                <option value="85">Fulmbri</option>
+                                <option value="86">Gadhinglaj</option>
+                                <option value="87">Gajanan Krushi Utpanna Bazar (India) Pvt Ltd</option>
+                                <option value="88">Gangakhed</option>
+                                <option value="89">Gangapur</option>
+                                <option value="90">Gevrai</option>
+                                <option value="91">Ghansawangi</option>
+                                <option value="92">Ghatanji</option>
+                                <option value="93">Ghoti</option>
+                                <option value="94">Gondpimpri</option>
+                                <option value="95">Gopal Krishna Agro</option>
+                                <option value="96">Hadgaon</option>
+                                <option value="97">Hadgaon(Tamsa)</option>
+                                <option value="98">Hari Har Khajagi Bazar Parisar</option>
+                                <option value="99">Higanghat Infrastructure Private Limited</option>
+                                <option value="100">Himalyatnagar</option>
+                                <option value="101">Hinganghat</option>
+                                <option value="102">Hingna</option>
+                                <option value="103">Hingoli</option>
+                                <option value="104">Hingoli(Kanegoan Naka)</option>
+                                <option value="105">Indapur</option>
+                                <option value="106">Indapur(Bhigwan)</option>
+                                <option value="107">Indapur(Nimgaon Ketki)</option>
+                                <option value="108">Islampur</option>
+                                <option value="109">J S K Agro Market</option>
+                                <option value="110">Jafrabad</option>
+                                <option value="111">Jagdamba Agrocare</option>
+                                <option value="112">Jai Gajanan Krishi Bazar</option>
+                                <option value="113">Jalana</option>
+                                <option value="114">Jalgaon</option>
+                                <option value="115">Jalgaon Jamod(Aasalgaon)</option>
+                                <option value="116">Jalgaon(Masawat)</option>
+                                <option value="117">Jalkot</option>
+                                <option value="118">Jalna(Badnapur)</option>
+                                <option value="119">Jamkhed</option>
+                                <option value="120">Jamner</option>
+                                <option value="121">Jamner(Neri)</option>
+                                <option value="122">Janata Agri Market (DLS Agro Infrastructure Pvt Lt</option>
+                                <option value="123">Jawala-Bajar</option>
+                                <option value="124">Jawali</option>
+                                <option value="125">Jaykissan Krushi Uttpan Khajgi Bazar</option>
+                                <option value="126">Jintur</option>
+                                <option value="127">Junnar</option>
+                                <option value="128">Junnar(Alephata)</option>
+                                <option value="129">Junnar(Narayangaon)</option>
+                                <option value="130">Junnar(Otur)</option>
+                                <option value="131">Kada</option>
+                                <option value="132">Kada(Ashti)</option>
+                                <option value="133">Kai Madhavrao Pawar Khajgi Krushi Utappan Bazar Sa</option>
+                                <option value="134">Kaij</option>
+                                <option value="135">Kalamb</option>
+                                <option value="136">Kalamb (Dharashiv)</option>
+                                <option value="137">Kalamnuri</option>
+                                <option value="138">Kalmeshwar</option>
+                                <option value="139">Kalvan</option>
+                                <option value="140">Kalyan</option>
+                                <option value="141">Kamthi</option>
+                                <option value="142">Kandhar</option>
+                                <option value="143">Kannad</option>
+                                <option value="144">Karad</option>
+                                <option value="145">Karanja</option>
+                                <option value="146">Karjat</option>
+                                <option value="147">Karjat(Raigad)</option>
+                                <option value="148">Karmala</option>
+                                <option value="149">Katol</option>
+                                <option value="150">Khamgaon</option>
+                                <option value="151">Khed</option>
+                                <option value="152">Khed(Chakan)</option>
+                                <option value="153">Khultabad</option>
+                                <option value="154">Kille Dharur</option>
+                                <option value="155">Kinwat</option>
+                                <option value="156">Kisan Market Yard</option>
+                                <option value="157">Kolhapur</option>
+                                <option value="158">Kolhapur(Malkapur)</option>
+                                <option value="159">Kopargaon</option>
+                                <option value="160">Koregaon</option>
+                                <option value="161">Korpana</option>
+                                <option value="162">Krushna Krishi Bazar</option>
+                                <option value="163">Kurdwadi</option>
+                                <option value="164">Kurdwadi(Modnimb)</option>
+                                <option value="165">Lakhandur</option>
+                                <option value="166">Lasalgaon</option>
+                                <option value="167">Lasalgaon(Niphad)</option>
+                                <option value="168">Lasalgaon(Vinchur)</option>
+                                <option value="169">Lasur Station</option>
+                                <option value="170">Late Vasantraoji Dandale Khajgi Krushi Bazar</option>
+                                <option value="171">Latur</option>
+                                <option value="172">Latur(Murud)</option>
+                                <option value="173">Laxmi Sopan Agriculture Produce Marketing Co Ltd</option>
+                                <option value="174">Loha</option>
+                                <option value="175">Lonand</option>
+                                <option value="176">Lonar</option>
+                                <option value="177">MS Kalpana Agri Commodities Marketing</option>
+                                <option value="178">Mahagaon</option>
+                                <option value="179">Maharaja Agresen Private Krushi Utappan Bazar Sama</option>
+                                <option value="180">Mahavir Agri Market</option>
+                                <option value="181">Mahavira Agricare</option>
+                                <option value="182">Mahesh Krushi Utpanna Bazar, Digras</option>
+                                <option value="183">Mahur</option>
+                                <option value="184">Majalgaon</option>
+                                <option value="185">Malegaon</option>
+                                <option value="186">Malegaon(Vashim)</option>
+                                <option value="187">Malharshree Farmers Producer Co Ltd</option>
+                                <option value="188">Malkapur</option>
+                                <option value="189">Manchar</option>
+                                <option value="190">Mandhal</option>
+                                <option value="191">Mangal Wedha</option>
+                                <option value="192">Mangaon</option>
+                                <option value="193">Mangrulpeer</option>
+                                <option value="194">Mankamneshwar Farmar Producer CoLtd Sanchalit Mank</option>
+                                <option value="195">Manmad</option>
+                                <option value="196">Manora</option>
+                                <option value="197">Mantha</option>
+                                <option value="198">Manwat</option>
+                                <option value="199">Marathawada Shetkari Khajgi Bazar Parisar</option>
+                                <option value="200">Maregoan</option>
+                                <option value="201">Mauda</option>
+                                <option value="202">Mehekar</option>
+                                <option value="203">Mohol</option>
+                                <option value="204">Morshi</option>
+                                <option value="205">Motala</option>
+                                <option value="206">Mudkhed</option>
+                                <option value="207">Mukhed</option>
+                                <option value="208">Mulshi</option>
+                                <option value="209">Mumbai</option>
+                                <option value="210">Mumbai- Fruit Market</option>
+                                <option value="211">Murbad</option>
+                                <option value="212">Murtizapur</option>
+                                <option value="213">Murud</option>
+                                <option value="214">Murum</option>
+                                <option value="215">N N Mundhada Agriculture Market Produce</option>
+                                <option value="216">Nagpur</option>
+                                <option value="217">Naigaon</option>
+                                <option value="218">Nampur</option>
+                                <option value="219">Nanded</option>
+                                <option value="220">Nandgaon</option>
+                                <option value="221">Nandgaon Khandeshwar</option>
+                                <option value="222">Nandura</option>
+                                <option value="223">Nandurbar</option>
+                                <option value="224">Narkhed</option>
+                                <option value="225">Nashik(Devlali)</option>
+                                <option value="226">Nasik</option>
+                                <option value="227">Navapur</option>
+                                <option value="228">Ner Parasopant</option>
+                                <option value="229">Newasa</option>
+                                <option value="230">Newasa(Ghodegaon)</option>
+                                <option value="231">Nilanga</option>
+                                <option value="232">Nira</option>
+                                <option value="233">Nira(Saswad)</option>
+                                <option value="234">Om Chaitanya Multistate Agro Purpose CoOp Society</option>
+                                <option value="235">Pachora</option>
+                                <option value="236">Pachora(Bhadgaon)</option>
+                                <option value="237">Paithan</option>
+                                <option value="238">Palam</option>
+                                <option value="239">Palghar</option>
+                                <option value="240">Palus</option>
+                                <option value="241">Pandhakawada</option>
+                                <option value="242">Pandharpur</option>
+                                <option value="243">Panvel</option>
+                                <option value="244">Parali Vaijyanath</option>
+                                <option value="245">Paranda</option>
+                                <option value="246">Parbhani</option>
+                                <option value="247">Parner</option>
+                                <option value="248">Parola</option>
+                                <option value="249">Parshiwani</option>
+                                <option value="250">Partur</option>
+                                <option value="251">Partur(Vatur)</option>
+                                <option value="252">Patan</option>
+                                <option value="253">Pathardi</option>
+                                <option value="254">Pathari</option>
+                                <option value="255">Patoda</option>
+                                <option value="256">Patur</option>
+                                <option value="257">Pavani</option>
+                                <option value="258">Pen</option>
+                                <option value="259">Perfect Krishi Market Yard Pvt Ltd</option>
+                                <option value="260">Phaltan</option>
+                                <option value="261">Pimpalgaon</option>
+                                <option value="262">Pimpalgaon Baswant(Saykheda)</option>
+                                <option value="263">Pombhurni</option>
+                                <option value="264">Pratap Nana Mahale Khajgi Bajar Samiti</option>
+                                <option value="265">Premium Krushi Utpanna Bazar</option>
+                                <option value="266">Pulgaon</option>
+                                <option value="267">Pune</option>
+                                <option value="268">Pune(Khadiki)</option>
+                                <option value="269">Pune(Manjri)</option>
+                                <option value="270">Pune(Moshi)</option>
+                                <option value="271">Pune(Pimpri)</option>
+                                <option value="272">Purna</option>
+                                <option value="273">Pusad</option>
+                                <option value="274">Rahata</option>
+                                <option value="275">Rahuri</option>
+                                <option value="276">Rahuri(Songaon)</option>
+                                <option value="277">Rahuri(Vambori)</option>
+                                <option value="278">Rajura</option>
+                                <option value="279">Ralegaon</option>
+                                <option value="280">Ramdev Krushi Bazaar</option>
+                                <option value="281">Ramtek</option>
+                                <option value="282">Rangrao Patil Krushi Utpanna Khajgi Bazar</option>
+                                <option value="283">Ratnagiri (Nachane)</option>
+                                <option value="284">Raver</option>
+                                <option value="285">Raver(Sauda)</option>
+                                <option value="286">Risod</option>
+                                <option value="287">Sakri</option>
+                                <option value="288">Samudrapur</option>
+                                <option value="289">Sangamner</option>
+                                <option value="290">Sangli</option>
+                                <option value="291">Sangli(Phale, Bhajipura Market)</option>
+                                <option value="292">Sangola</option>
+                                <option value="293">Sangrampur(Varvatbakal)</option>
+                                <option value="294">Sant Namdev Krushi Bazar,</option>
+                                <option value="295">Satana</option>
+                                <option value="296">Satara</option>
+                                <option value="297">Savner</option>
+                                <option value="298">Selu</option>
+                                <option value="299">Sengoan</option>
+                                <option value="300">Shahada</option>
+                                <option value="301">Shahapur</option>
+                                <option value="302">Shantilal Jain Agro</option>
+                                <option value="303">Shegaon</option>
+                                <option value="304">Shekari Krushi Khajgi Bazar</option>
+                                <option value="305">Shetkari Khajgi Bajar</option>
+                                <option value="306">Shetkari Khushi Bazar</option>
+                                <option value="307">Shevgaon</option>
+                                <option value="308">Shevgaon(Bodhegaon)</option>
+                                <option value="309">Shirpur</option>
+                                <option value="310">Shirur</option>
+                                <option value="311">Shivsiddha Govind Producer Company Limited Sanchal</option>
+                                <option value="312">Shree Rameshwar Krushi Market</option>
+                                <option value="313">Shree Sairaj Krushi Market</option>
+                                <option value="314">Shree Salasar Krushi Bazar</option>
+                                <option value="315">Shri Gajanan Maharaj Khajagi Krushi Utpanna Bazar</option>
+                                <option value="316">Shrigonda</option>
+                                <option value="317">Shrigonda(Gogargaon)</option>
+                                <option value="318">Shrirampur</option>
+                                <option value="319">Shrirampur(Belapur)</option>
+                                <option value="320">Sillod</option>
+                                <option value="321">Sillod(Bharadi)</option>
+                                <option value="322">Sindi</option>
+                                <option value="323">Sindi(Selu)</option>
+                                <option value="324">Sindkhed Raja</option>
+                                <option value="325">Sinner</option>
+                                <option value="326">Sironcha</option>
+                                <option value="327">Solapur</option>
+                                <option value="328">Sonpeth</option>
+                                <option value="329">Suragana</option>
+                                <option value="330">Tadkalas</option>
+                                <option value="331">Taloda</option>
+                                <option value="332">Tasgaon</option>
+                                <option value="333">Telhara</option>
+                                <option value="334">Tiwasa</option>
+                                <option value="335">Tuljapur</option>
+                                <option value="336">Tumsar</option>
+                                <option value="337">Udgir</option>
+                                <option value="338">Ulhasnagar</option>
+                                <option value="339">Umared</option>
+                                <option value="340">Umarga</option>
+                                <option value="341">Umari</option>
+                                <option value="342">Umarked(Danki)</option>
+                                <option value="343">Umarkhed</option>
+                                <option value="344">Umrane</option>
+                                <option value="345">Vadgaonpeth</option>
+                                <option value="346">Vaduj</option>
+                                <option value="347">Vadvani</option>
+                                <option value="348">Vai</option>
+                                <option value="349">Vaijpur</option>
+                                <option value="350">Vani</option>
+                                <option value="351">Varora</option>
+                                <option value="352">Varud</option>
+                                <option value="353">Varud(Rajura Bazar)</option>
+                                <option value="354">Vasai</option>
+                                <option value="355">Vashi New Mumbai</option>
+                                <option value="356">Vita</option>
+                                <option value="357">Vitthal Krushi Utpanna Bazar</option>
+                                <option value="358">Wardha</option>
+                                <option value="359">Washi (Dharashiv)</option>
+                                <option value="360">Washim</option>
+                                <option value="361">Washim(Ansing)</option>
+                                <option value="362">Yashika Agro Marketing</option>
+                                <option value="363">Yawal</option>
+                                <option value="364">Yeola</option>
+                                <option value="365">Yeotmal</option>
+                                <option value="366">ZariZamini</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_42" for="commodity-select">Select Commodity:</label>
+                            <select id="commodity-select" name="commodity" required="">
+                                <option disabled="" selected="" value="">Choose a Commodity</option>
+                                <option value="0">Ajwan</option>
+                                <option value="1">Arecanut(Betelnut/Supari)</option>
+                                <option value="2">Arhar (Tur/Red Gram)(Whole)</option>
+                                <option value="3">Arhar Dal(Tur Dal)</option>
+                                <option value="4">Bajra(Pearl Millet/Cumbu)</option>
+                                <option value="5">Banana</option>
+                                <option value="6">Bengal Gram Dal (Chana Dal)</option>
+                                <option value="7">Bengal Gram(Gram)(Whole)</option>
+                                <option value="8">Bhindi(Ladies Finger)</option>
+                                <option value="9">Bitter gourd</option>
+                                <option value="10">Black Gram (Urd Beans)(Whole)</option>
+                                <option value="11">Black Gram Dal (Urd Dal)</option>
+                                <option value="12">Black pepper</option>
+                                <option value="13">Bottle gourd</option>
+                                <option value="14">Brinjal</option>
+                                <option value="15">Cabbage</option>
+                                <option value="16">Carrot</option>
+                                <option value="17">Cashewnuts</option>
+                                <option value="18">Castor Seed</option>
+                                <option value="19">Cauliflower</option>
+                                <option value="20">Chikoos(Sapota)</option>
+                                <option value="21">Chili Red</option>
+                                <option value="22">Chilly Capsicum</option>
+                                <option value="23">Coconut</option>
+                                <option value="24">Coriander(Leaves)</option>
+                                <option value="25">Corriander seed</option>
+                                <option value="26">Cotton</option>
+                                <option value="27">Cowpea (Lobia/Karamani)</option>
+                                <option value="28">Cucumbar(Kheera)</option>
+                                <option value="29">Cummin Seed(Jeera)</option>
+                                <option value="30">Drumstick</option>
+                                <option value="31">French Beans (Frasbean)</option>
+                                <option value="32">Garlic</option>
+                                <option value="33">Ginger(Dry)</option>
+                                <option value="34">Ginger(Green)</option>
+                                <option value="35">Grapes</option>
+                                <option value="36">Green Gram (Moong)(Whole)</option>
+                                <option value="37">Green Gram Dal (Moong Dal)</option>
+                                <option value="38">Green Peas</option>
+                                <option value="39">Guava</option>
+                                <option value="40">Jack Fruit</option>
+                                <option value="41">Jamun(Narale Hannu)</option>
+                                <option value="42">Jowar(Sorghum)</option>
+                                <option value="43">Kulthi(Horse Gram)</option>
+                                <option value="44">Lentil (Masur)(Whole)</option>
+                                <option value="45">Lime</option>
+                                <option value="46">Linseed</option>
+                                <option value="47">Maize</option>
+                                <option value="48">Mango</option>
+                                <option value="49">Methi(Leaves)</option>
+                                <option value="50">Mustard</option>
+                                <option value="51">Neem Seed</option>
+                                <option value="52">Niger Seed (Ramtil)</option>
+                                <option value="53">Onion</option>
+                                <option value="54">Orange</option>
+                                <option value="55">Papaya</option>
+                                <option value="56">Pineapple</option>
+                                <option value="57">Pomegranate</option>
+                                <option value="58">Potato</option>
+                                <option value="59">Pumpkin</option>
+                                <option value="60">Raddish</option>
+                                <option value="61">Ragi (Finger Millet)</option>
+                                <option value="62">Rice</option>
+                                <option value="63">Safflower</option>
+                                <option value="64">Sesamum(Sesame,Gingelly,Til)</option>
+                                <option value="65">Soanf</option>
+                                <option value="66">Soyabean</option>
+                                <option value="67">Spinach</option>
+                                <option value="68">Sugarcane</option>
+                                <option value="69">Sunflower</option>
+                                <option value="70">Tomato</option>
+                                <option value="71">Turmeric</option>
+                                <option value="72">Water Melon</option>
+                                <option value="73">Wheat</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_43" for="variety-select">Select Variety:</label>
+                            <select id="variety-select" name="variety" required="">
+                                <option disabled="" selected="" value="">Choose a variety (Dont know keep "FAQ")
+                                </option>
+                                <option value="0">1009 Kar</option>
+                                <option value="1">147 Average</option>
+                                <option value="2">1st Sort</option>
+                                <option value="3">2nd Sort</option>
+                                <option value="4">Average (Whole)</option>
+                                <option value="5">Bansi</option>
+                                <option value="6">Black</option>
+                                <option value="7">Bold</option>
+                                <option value="8">DCH-32(Unginned)</option>
+                                <option value="9">Deshi Red</option>
+                                <option value="10">Deshi White</option>
+                                <option value="11">Desi</option>
+                                <option value="12">F.A.Q. Bold</option>
+                                <option value="13">Full Green</option>
+                                <option value="14">Gajjar</option>
+                                <option value="15">Green (Whole)</option>
+                                <option value="16">H-4(A) 27mm FIne</option>
+                                <option value="17">Hapus(Alphaso)</option>
+                                <option value="18">Hybrid</option>
+                                <option value="19">Jalgaon</option>
+                                <option value="20">Jowar ( White)</option>
+                                <option value="21">Jowar (Yellow)</option>
+                                <option value="22">Kabul Small</option>
+                                <option value="23">Kalyan</option>
+                                <option value="24">Kesari</option>
+                                <option value="25">Khandesh</option>
+                                <option value="26">LH-900</option>
+                                <option value="27">LRA</option>
+                                <option value="28">Local</option>
+                                <option value="29">Maharashtra 2189</option>
+                                <option value="30">Mogan Medium</option>
+                                <option value="31">N-44</option>
+                                <option value="32">Niger Seed</option>
+                                <option value="33">Other</option>
+                                <option value="34">Pole</option>
+                                <option value="35">RCH-2</option>
+                                <option value="36">Rajapuri</option>
+                                <option value="37">Red</option>
+                                <option value="38">Sharbati</option>
+                                <option value="39">Totapuri</option>
+                                <option value="40">Varalaxmi</option>
+                                <option value="41">White</option>
+                                <option value="42">White Fozi</option>
+                                <option value="43">Yellow</option>
+                                <option value="44">Yellow (Black)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_44" for="agri-season-select">Select Agri Season:</label>
+                            <select id="agri-season-select" name="agri_season" required="">
+                                <option disabled="" selected="" value="">Choose a Agricultural season</option>
+                                <option value="0">Kharif</option>
+                                <option value="1">Rabi</option>
+                                <option value="2">Zaid</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_45" for="climate-season-select">Select Climate Season:</label>
+                            <select id="climate-season-select" name="climate_season" required="">
+                                <option disabled="" selected="" value="">Choose a Season</option>
+                                <option value="0">Monsoon</option>
+                                <option value="1">Post-Monsoon</option>
+                                <option value="2">Summer</option>
+                                <option value="3">Winter</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-primary" data-translate="text_46" type="submit">Estimate Price</button>
+                    </form>
+                </div>
+                <div class="price-result animate-on-scroll">
+                    <h3>Price Trends</h3>
+                    <div class="results-container" id="price-results">
+                        <p class="placeholder-text" data-translate="text_47">Select options to view price trends</p>
+                        <div class="chart-container" id="price-chart"></div>
+                        <div class="estimated-value" id="estimated-value"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Yield Prediction Section -->
+    <section class="yield-prediction" id="yield-prediction">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="text_48">Yield Prediction</h2>
+                <p data-translate="text_49">Estimate your harvest potential</p>
+            </div>
+            <div class="yield-content">
+                <div class="yield-form animate-on-scroll">
+                    <h3>Calculate Expected Yield</h3>
+                    <form id="yield-prediction-form">
+                        <div class="form-group">
+                            <label data-translate="text_50" for="state">Select State:</label>
+                            <select id="state" name="state" required="">
+                                <option disabled="" selected="" value="">Choose a state</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                            </select>
+                        </div>
+                        <!-- Commodity Selection -->
+                        <div class="form-group">
+                            <label data-translate="text_51" for="commodity">Select Commodity:</label>
+                            <select id="commodity" name="commodity" required="">
+                                <option disabled="" selected="" value="">Choose a commodity</option>
+                                <option value="Ajwain (Carom Seeds)">Ajwain (Carom Seeds)</option>
+                                <option value="Aloe Vera">Aloe Vera</option>
+                                <option value="Arecanut (Betelnut)">Arecanut (Betelnut)</option>
+                                <option value="Arhar/tur">Arhar/tur</option>
+                                <option value="Ashwagandha">Ashwagandha</option>
+                                <option value="Bajra">Bajra</option>
+                                <option value="Bajra (Pearl Millet)">Bajra (Pearl Millet)</option>
+                                <option value="Banana">Banana</option>
+                                <option value="Barley">Barley</option>
+                                <option value="Ber (Indian Jujube)">Ber (Indian Jujube)</option>
+                                <option value="Berseem">Berseem</option>
+                                <option value="Bitter Gourd">Bitter Gourd</option>
+                                <option value="Black Pepper">Black Pepper</option>
+                                <option value="Bottle Gourd">Bottle Gourd</option>
+                                <option value="Brinjal (Eggplant)">Brinjal (Eggplant)</option>
+                                <option value="Cabbage">Cabbage</option>
+                                <option value="Carrot">Carrot</option>
+                                <option value="Cashew Nut">Cashew Nut</option>
+                                <option value="Castor Seed">Castor Seed</option>
+                                <option value="Castor seed">Castor seed</option>
+                                <option value="Cauliflower">Cauliflower</option>
+                                <option value="Chana (Bengal Gram)">Chana (Bengal Gram)</option>
+                                <option value="Chikoo (Sapota)">Chikoo (Sapota)</option>
+                                <option value="Chilli">Chilli</option>
+                                <option value="Cluster Beans (Gavar)">Cluster Beans (Gavar)</option>
+                                <option value="Coconut">Coconut</option>
+                                <option value="Coffee">Coffee</option>
+                                <option value="Coriander">Coriander</option>
+                                <option value="Coriander Seeds">Coriander Seeds</option>
+                                <option value="Cotton">Cotton</option>
+                                <option value="Cotton(lint)">Cotton(lint)</option>
+                                <option value="Cucumber">Cucumber</option>
+                                <option value="Cumin (Jeera)">Cumin (Jeera)</option>
+                                <option value="Custard Apple">Custard Apple</option>
+                                <option value="Dill Seeds">Dill Seeds</option>
+                                <option value="Drumstick">Drumstick</option>
+                                <option value="Fennel (Saunf)">Fennel (Saunf)</option>
+                                <option value="Fenugreek (Methi)">Fenugreek (Methi)</option>
+                                <option value="Fig (Anjeer)">Fig (Anjeer)</option>
+                                <option value="French Beans">French Beans</option>
+                                <option value="Garlic">Garlic</option>
+                                <option value="Ginger">Ginger</option>
+                                <option value="Gram">Gram</option>
+                                <option value="Grapes">Grapes</option>
+                                <option value="Green Peas">Green Peas</option>
+                                <option value="Groundnut">Groundnut</option>
+                                <option value="Guava">Guava</option>
+                                <option value="Hybrid Napier Grass">Hybrid Napier Grass</option>
+                                <option value="Jackfruit">Jackfruit</option>
+                                <option value="Jamun">Jamun</option>
+                                <option value="Jowar">Jowar</option>
+                                <option value="Jowar (Sorghum)">Jowar (Sorghum)</option>
+                                <option value="Kulthi (Horse Gram)">Kulthi (Horse Gram)</option>
+                                <option value="Lady Finger (Bhindi)">Lady Finger (Bhindi)</option>
+                                <option value="Lemon">Lemon</option>
+                                <option value="Lemongrass">Lemongrass</option>
+                                <option value="Linseed">Linseed</option>
+                                <option value="Lobia (Cowpea)">Lobia (Cowpea)</option>
+                                <option value="Lucerne">Lucerne</option>
+                                <option value="Maize">Maize</option>
+                                <option value="Maize (For Fodder)">Maize (For Fodder)</option>
+                                <option value="Mango">Mango</option>
+                                <option value="Masoor (Lentil)">Masoor (Lentil)</option>
+                                <option value="Moong (Green Gram)">Moong (Green Gram)</option>
+                                <option value="Moong(green gram)">Moong(green gram)</option>
+                                <option value="Muskmelon">Muskmelon</option>
+                                <option value="Mustard">Mustard</option>
+                                <option value="Mustard Seeds">Mustard Seeds</option>
+                                <option value="Neem">Neem</option>
+                                <option value="Niger (Ramtil)">Niger (Ramtil)</option>
+                                <option value="Niger seed">Niger seed</option>
+                                <option value="Onion">Onion</option>
+                                <option value="Orange">Orange</option>
+                                <option value="Papaya">Papaya</option>
+                                <option value="Pineapple">Pineapple</option>
+                                <option value="Pomegranate">Pomegranate</option>
+                                <option value="Potato">Potato</option>
+                                <option value="Pumpkin">Pumpkin</option>
+                                <option value="Radish">Radish</option>
+                                <option value="Ragi">Ragi</option>
+                                <option value="Ragi (Finger Millet)">Ragi (Finger Millet)</option>
+                                <option value="Rajma (Kidney Beans)">Rajma (Kidney Beans)</option>
+                                <option value="Rapeseed &amp; Mustard">Rapeseed &amp; Mustard</option>
+                                <option value="Rice">Rice</option>
+                                <option value="Safflower">Safflower</option>
+                                <option value="Safflower (Kardi)">Safflower (Kardi)</option>
+                                <option value="Sarpagandha">Sarpagandha</option>
+                                <option value="Sesame (Til)">Sesame (Til)</option>
+                                <option value="Sesamum">Sesamum</option>
+                                <option value="Sorghum (For Fodder)">Sorghum (For Fodder)</option>
+                                <option value="Soyabean">Soyabean</option>
+                                <option value="Soybean">Soybean</option>
+                                <option value="Spinach">Spinach</option>
+                                <option value="Sugarcane">Sugarcane</option>
+                                <option value="Sunflower">Sunflower</option>
+                                <option value="Sweet Lime (Mosambi)">Sweet Lime (Mosambi)</option>
+                                <option value="Tea">Tea</option>
+                                <option value="Tobacco">Tobacco</option>
+                                <option value="Tomato">Tomato</option>
+                                <option value="Tulsi (Holy Basil)">Tulsi (Holy Basil)</option>
+                                <option value="Tur (Arhar/Red Gram)">Tur (Arhar/Red Gram)</option>
+                                <option value="Turmeric">Turmeric</option>
+                                <option value="Urad">Urad</option>
+                                <option value="Urad (Black Gram)">Urad (Black Gram)</option>
+                                <option value="Watermelon">Watermelon</option>
+                                <option value="Wheat">Wheat</option>
+                            </select>
+                        </div>
+                        <!-- District Selection -->
+                        <div class="form-group">
+                            <label data-translate="text_52" for="district">Select District:</label>
+                            <select id="district" name="district" required="">
+                                <option disabled="" selected="" value="">Choose a district</option>
+                                <option value="Ahmednagar">Ahmednagar</option>
+                                <option value="Akola">Akola</option>
+                                <option value="Amravati">Amravati</option>
+                                <option value="Aurangabad">Aurangabad</option>
+                                <option value="Beed">Beed</option>
+                                <option value="Bhandara">Bhandara</option>
+                                <option value="Buldhana">Buldhana</option>
+                                <option value="Chandrapur">Chandrapur</option>
+                                <option value="Dhule">Dhule</option>
+                                <option value="Gadchiroli">Gadchiroli</option>
+                                <option value="Gondia">Gondia</option>
+                                <option value="Hingoli">Hingoli</option>
+                                <option value="Jalgaon">Jalgaon</option>
+                                <option value="Jalna">Jalna</option>
+                                <option value="Kolhapur">Kolhapur</option>
+                                <option value="Latur">Latur</option>
+                                <option value="Mumbai suburban">Mumbai suburban</option>
+                                <option value="Nagpur">Nagpur</option>
+                                <option value="Nanded">Nanded</option>
+                                <option value="Nandurbar">Nandurbar</option>
+                                <option value="Nashik">Nashik</option>
+                                <option value="Osmanabad">Osmanabad</option>
+                                <option value="Palghar">Palghar</option>
+                                <option value="Parbhani">Parbhani</option>
+                                <option value="Pune">Pune</option>
+                                <option value="Raigad">Raigad</option>
+                                <option value="Ratnagiri">Ratnagiri</option>
+                                <option value="Sangli">Sangli</option>
+                                <option value="Satara">Satara</option>
+                                <option value="Sindhudurg">Sindhudurg</option>
+                                <option value="Solapur">Solapur</option>
+                                <option value="Thane">Thane</option>
+                                <option value="Wardha">Wardha</option>
+                                <option value="Washim">Washim</option>
+                                <option value="Yavatmal">Yavatmal</option>
+                                <option value="latur">latur</option>
+                            </select>
+                        </div>
+                        <!-- Season Selection -->
+                        <div class="form-group">
+                            <label data-translate="text_53" for="season">Choose Season:</label>
+                            <select id="season" name="season" required="">
+                                <option disabled="" selected="" value="">Select season</option>
+                                <option value="Kharif">Kharif</option>
+                                <option value="Rabi">Rabi</option>
+                                <option value="Summer">Summer</option>
+                                <option value="Whole Year">Whole Year</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label data-translate="text_54" for="area_hectare">Area in Hectares:</label>
+                            <input id="area_hectare" min="1" name="area_hectare" placeholder="Enter area in hectares"
+                                required="" step="any" type="number" />
+                        </div>
+                        <button class="btn btn-primary" data-translate="text_55" type="submit">Predict Yield</button>
+                    </form>
+                </div>
+                <div class="yield-result animate-on-scroll">
+                    <h3>Expected Yield</h3>
+                    <div class="results-container" id="yield-results">
+                        <p class="placeholder-text" data-translate="text_56">Enter your farming details to calculate
+                            expected yield</p>
+                        <!-- Results will be displayed here via JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Chatbot Section -->
+    <section class="chatbot" id="chatbot">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="text_57">AI Farming Assistant</h2>
+                <p data-translate="text_58">Get instant answers to your farming questions</p>
+            </div>
+            <div class="chatbot-container animate-on-scroll">
+                <div class="chatbot-messages" id="chatbot-messages">
+                    <div class="message bot-message">
+                        <div class="message-content">
+                            <p data-translate="text_59">Hello! I'm your farming assistant. How can I help you today?</p>
+                        </div>
+                    </div>
+                    <!-- Chat messages will appear here -->
+                </div>
+                <div class="chatbot-input">
+                    <form id="chatbot-form">
+                        <input id="user-input" placeholder="Ask about crops, pests, fertilizers..." required=""
+                            type="text" />
+                        <button class="chat-send-btn" data-translate="text_60" type="submit"><i
+                                class="fas fa-paper-plane"></i></button>
+                        <button class="voice-btn" data-translate="text_61" id="voice-input-btn" type="button"><i
+                                class="fas fa-microphone"></i></button>
+                    </form>
+                </div>
+                <div class="chatbot-suggestions">
+                    <p data-translate="text_62">Try asking:</p>
+                    <div class="suggestion-chips">
+                        <button class="suggestion-chip" data-translate="text_63">Best fertilizer for tomatoes?</button>
+                        <button class="suggestion-chip" data-translate="text_64">How to control aphids?</button>
+                        <button class="suggestion-chip" data-translate="text_65">When to harvest wheat?</button>
+                        <button class="suggestion-chip" data-translate="text_66">Water requirements for rice</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img alt="AgroSarthi Logo" src="/static/images/logo.svg" />
+                    <h3>AgroSarthi</h3>
+                    <p data-translate="text_67">Smart Farming Solutions</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a data-translate="text_68" href="#home">Home</a></li>
+                        <li><a data-translate="text_69" href="#about">About</a></li>
+                        <li><a data-translate="text_70" href="#services">Services</a></li>
+                        <li><a data-translate="text_71" href="#crop-prediction">Crop Prediction</a></li>
+                        <li><a data-translate="text_72" href="#price-estimation">Price Estimation</a></li>
+                        <li><a data-translate="text_73" href="#yield-prediction">Yield Prediction</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p data-translate="text_74"><i class="fas fa-envelope"></i> support@AgroSarthi.com</p>
+                    <p data-translate="text_75"><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <div class="social-icons">
+                        <a class="social-icon" data-translate="text_76" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" data-translate="text_77" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" data-translate="text_78" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="social-icon" data-translate="text_79" href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="text_80">© 2023 AgroSarthi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Back to Top Button -->
+    <a class="back-to-top" data-translate="text_81" href="#" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/translations.js"></script>
+    <script src="/static/js/chatbot.js"></script>
+    <script src="/static/js/crop-prediction.js"></script>
+    <script src="/static/js/price-estimation.js"></script>
+    <script src="/static/js/yield-prediction.js"></script>
+</body>
+
+</html>
