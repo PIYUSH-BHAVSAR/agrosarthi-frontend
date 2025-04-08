@@ -1,8 +1,4 @@
-Thanks! Based on the image you shared, your **Agrosarthi Frontend** is a vanilla JS project (not React-based), structured under a `static` directory. Here's the updated **README.md** tailored to your actual frontend folder structure and tech stack (HTML + CSS + JS, Firebase hosting, FastAPI backend):
 
----
-
-```markdown
 # 🌾 Agrosarthi Frontend
 
 Agrosarthi is a smart agriculture assistant designed to support Indian farmers in making informed decisions about crop selection, market pricing, and yield predictions.
